@@ -68,7 +68,7 @@ const FilterPanel = ({
             onChange={(e) => setFilterRegion(e.target.value)}
             className="border border-gray-300 rounded p-2 shadow-md w-full mb-2"
           >
-            <option value="">All Continents</option>
+            <option value="">All Regions</option>
             <option value="Africa">Africa</option>
             <option value="Americas">Americas</option>
             <option value="Asia">Asia</option>
@@ -80,20 +80,24 @@ const FilterPanel = ({
             onChange={(e) => setFilterSubRegion(e.target.value)}
             className="border border-gray-300 rounded p-2 shadow-md w-full mb-2"
           >
-            <option value="">All Subcontinents</option>
-            <option value="Sub-Saharan Africa">Sub-Saharan Africa</option>
+            <option value="">All Subregions</option>
+            <option value="Northern Africa">Northern Africa</option>
             <option value="Central Asia">Central Asia</option>
-            <option value="East Asia">East Asia</option>
+            <option value="Eastern Asia">Eastern Asia</option>
             <option value="Southern Asia">Southern Asia</option>
-            <option value="Southeast Asia">Southeast Asia</option>
+            <option value="Western Asia">Western Asia</option>
             <option value="Eastern Europe">Eastern Europe</option>
+            <option value="Northern Europe">Northern Europe</option>
+            <option value="Southern Europe">Southern Europe</option>
             <option value="Western Europe">Western Europe</option>
-            <option value="North America">North America</option>
-            <option value="Central America">Central America</option>
-            <option value="South America">South America</option>
             <option value="Caribbean">Caribbean</option>
-            <option value="Oceania">Oceania</option>
-            <option value="Middle East">Middle East</option>
+            <option value="Central America">Central America</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+            <option value="Australia and New Zealand">Oceania</option>
+            <option value="Melanesia">Melanesia</option>
+            <option value="Micronesia">Micronesia</option>
+            <option value="Polynesia">Polynesia</option>
           </select>
           <select
             value={filterPopulation}
